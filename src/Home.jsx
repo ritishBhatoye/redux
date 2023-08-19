@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Home = () => {
+const Home = ({value}) => {
+
   return (
     <div>
-      HOME
+      <h2>{value}</h2>
+      <button>Increment</button>
+      <button>Decrement</button>
     </div>
   )
 }
