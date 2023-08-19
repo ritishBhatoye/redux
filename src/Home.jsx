@@ -14,7 +14,6 @@ const subBtn=()=>{
 dispatch({
     type:"decrement"
 })
-
 }
 
   return (
